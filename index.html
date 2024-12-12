@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APRYCOT</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+</head>
+<body>
+    <!-- Fixed bar started -->
+    <div class="fixed__bar">
+        <div class="fixed__bar-wrapper">
+            <div class="site__logo">
+                <a href="#"><img src="/images/logo.svg" alt=""></a>
+            </div>          
+            <div class="fixed__bar-next">
+                <a href="#"><img src="/images/Category.svg" alt=""></a>
+                <ul class="fixed__bar-list">
+                    <li><a href="#"><img src="/images/Ticket Star.one.svg" alt=""></a></li>
+                    <li><a href="#"><img src="/images/Shield Done.svg" alt=""></a></li>
+                    <li><a href="#"><img src="/images/3 User.svg" alt=""></a></li>
+                    <li><a href="#"><img src="/images/Frame 38142.svg" alt=""></a></li>
+                    <li><a href="#"><img src="/images/Wallet.svg" alt=""></a></li>
+                    <li><a href="#"><img src="/images/Ticket Star.svg" alt=""></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- Fixed bar finished -->
+    <!-- Header section started -->
+    <header class="header">
+        <div class="container header__wrapper">
+            <div>
+                <form>
+                    <div class="header__input">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input type="search" placeholder="Search..." class="header__input-search">
+                    </div>
+                </form>
+            </div>
+            <div class="header__right-menu">
+                <ul class="right__menu-list">
+                    <li>
+                        <a href="#"><svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M19.7695 12.1453C19.039 11.2923 18.7071 10.5531 18.7071 9.29716V8.87013C18.7071 7.23354 18.3304 6.17907 17.5115 5.12459C16.2493 3.48699 14.1244 2.5 12.0442 2.5H11.9558C9.91935 2.5 7.86106 3.44167 6.577 5.0128C5.71333 6.08842 5.29293 7.18822 5.29293 8.87013V9.29716C5.29293 10.5531 4.98284 11.2923 4.23049 12.1453C3.67691 12.7738 3.5 13.5815 3.5 14.4557C3.5 15.3309 3.78723 16.1598 4.36367 16.8336C5.11602 17.6413 6.17846 18.1569 7.26375 18.2466C8.83505 18.4258 10.4063 18.4933 12.0005 18.4933C13.5937 18.4933 15.165 18.3805 16.7372 18.2466C17.8215 18.1569 18.884 17.6413 19.6363 16.8336C20.2118 16.1598 20.5 15.3309 20.5 14.4557C20.5 13.5815 20.3231 12.7738 19.7695 12.1453Z" fill="#EA6A12"/>
+                            <path opacity="0.4" d="M14.0087 19.7284C13.5088 19.6216 10.4626 19.6216 9.96269 19.7284C9.53533 19.8271 9.07318 20.0567 9.07318 20.5603C9.09803 21.0407 9.37929 21.4647 9.76888 21.7336L9.76789 21.7346C10.2718 22.1274 10.8631 22.3771 11.4823 22.4668C11.8123 22.5121 12.1482 22.5101 12.4901 22.4668C13.1083 22.3771 13.6996 22.1274 14.2035 21.7346L14.2025 21.7336C14.5921 21.4647 14.8734 21.0407 14.8982 20.5603C14.8982 20.0567 14.4361 19.8271 14.0087 19.7284Z" fill="#EA6A12"/>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#"><svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path opacity="0.4" d="M21.9999 16.4402C21.9999 19.2302 19.7599 21.4902 16.9699 21.5002H16.9599H7.04988C4.26988 21.5002 1.99988 19.2502 1.99988 16.4602V16.4502C1.99988 16.4502 2.00588 12.0242 2.01388 9.79818C2.01488 9.38018 2.49488 9.14618 2.82188 9.40618C5.19788 11.2912 9.44688 14.7282 9.49988 14.7732C10.2099 15.3422 11.1099 15.6632 12.0299 15.6632C12.9499 15.6632 13.8499 15.3422 14.5599 14.7622C14.6129 14.7272 18.7669 11.3932 21.1789 9.47718C21.5069 9.21618 21.9889 9.45018 21.9899 9.86718C21.9999 12.0762 21.9999 16.4402 21.9999 16.4402Z" fill="#959895"/>
+                            <path d="M21.476 6.17357C20.61 4.54157 18.906 3.49957 17.03 3.49957H7.05001C5.17401 3.49957 3.47001 4.54157 2.60401 6.17357C2.41001 6.53857 2.50201 6.99357 2.82501 7.25157L10.25 13.1906C10.77 13.6106 11.4 13.8196 12.03 13.8196C12.034 13.8196 12.037 13.8196 12.04 13.8196C12.043 13.8196 12.047 13.8196 12.05 13.8196C12.68 13.8196 13.31 13.6106 13.83 13.1906L21.255 7.25157C21.578 6.99357 21.67 6.53857 21.476 6.17357Z" fill="#959895"/>
+                            </svg>      
+                        </a>                      
+                    </li>
+                    <li>
+                        <a href="#"><svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path opacity="0.4" fill-rule="evenodd" clip-rule="evenodd" d="M5.91058 21.0885C5.91058 20.2485 6.59058 19.5685 7.43058 19.5685C8.26058 19.5685 8.94058 20.2485 8.94058 21.0885C8.94058 21.9185 8.26058 22.5985 7.43058 22.5985C6.59058 22.5985 5.91058 21.9185 5.91058 21.0885ZM17.1606 21.0885C17.1606 20.2485 17.8406 19.5685 18.6806 19.5685C19.5106 19.5685 20.1906 20.2485 20.1906 21.0885C20.1906 21.9185 19.5106 22.5985 18.6806 22.5985C17.8406 22.5985 17.1606 21.9185 17.1606 21.0885Z" fill="#959895"/>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M20.1908 6.84903C20.8008 6.84903 21.2008 7.05903 21.6008 7.51903C22.0008 7.97903 22.0708 8.63903 21.9808 9.23803L21.0308 15.798C20.8508 17.059 19.7708 17.988 18.5008 17.988H7.5908C6.2608 17.988 5.1608 16.968 5.0508 15.649L4.1308 4.74803L2.6208 4.48803C2.2208 4.41803 1.9408 4.02803 2.0108 3.62803C2.0808 3.21803 2.4708 2.94803 2.8808 3.00803L5.2658 3.36803C5.6058 3.42903 5.8558 3.70803 5.8858 4.04803L6.0758 6.28803C6.1058 6.60903 6.3658 6.84903 6.6858 6.84903H20.1908ZM14.1308 12.048H16.9008C17.3208 12.048 17.6508 11.708 17.6508 11.298C17.6508 10.878 17.3208 10.548 16.9008 10.548H14.1308C13.7108 10.548 13.3808 10.878 13.3808 11.298C13.3808 11.708 13.7108 12.048 14.1308 12.048Z" fill="#959895"/>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+                <div class="header__user-info">
+                    <div class="header__user-face">
+                        <a href="#"> <img src="/images/user.svg" alt="face"></a>
+                    </div>
+                    <div class="header__user-name">
+                      <h4>Austin Robertson</h4>
+                      <span>Marketing Administrator</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header section finished -->
+    <!-- main started -->
+    <main>
+        <!-- Intro section started -->
+        <section class="intro">
+            <div class="container intro__wrapper">
+                <div class="intro__left">
+                    <div class="intro__left-text">
+                        <h4>Deal of the weekend</h3>
+                        <h1>Hello,  Austine Robertson</h1>
+                        <h3>Get <span>FREE delivery</span> on every weekend</h3>
+                        <button class="intro__btn">Check Menu</button>
+                    </div>
+                </div>
+                <div class="intro__right">
+                    <div class="intro__right-card">
+                        <img class="burger" src="/images/Burger image.svg" alt="">
+                        <span>50 % off</span>
+                        <p>The full price of burgers</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Intro section finished -->
+        <!-- Category section started -->
+        <section class="category">
+            <div class="container category__wrapper">
+                <div class="category__left">
+                    <div class="category__left-top">
+                        <div class="category__left-top-text">
+                            <h3>Menu category</h3>
+                            <p>View All <i class="fa-solid fa-circle-chevron-right"></i></p>
+                        </div>
+                        <div class="absolute">
+                            <img src="/images/Vector 3.svg" alt="">
+                            <img src="/images/Vector 4.svg" alt="">
+                        </div>
+                        <div class="category__left-top-card">
+                            <div class="active">
+                                <img src="/images/Pizza icon.svg" alt="">
+                                <p>Pizza</p>
+                                <i class="fa-solid fa-circle-chevron-right"></i>
+                            </div>
+                            <div class="left__top-card-box">
+                                <img src="/images/Fruits icon.svg" alt="">
+                                <p>Fruits</p>
+                                <i class="fa-solid fa-circle-chevron-right"></i>
+                            </div>
+                            <div class="left__top-card-box">
+                                <img src="/images/Snacks icon.svg" alt="">
+                                <p>Snacks</p>
+                                <i class="fa-solid fa-circle-chevron-right"></i>
+                            </div>
+                            <div class="left__top-card-box">
+                                <img src="/images/Veggies icon.svg" alt="">
+                                <p>Veggies</p>
+                                <i class="fa-solid fa-circle-chevron-right"></i>
+                            </div>
+                            <div class="left__top-card-box">
+                                <img src="/images/Hotdog icon.svg" alt="">
+                                <p>Hotdog</p>
+                                <i class="fa-solid fa-circle-chevron-right"></i>
+                            </div>
+                            <div class="left__top-card-box">
+                                <img src="/images/Burger icon.svg" alt="">
+                                <p>Burger</p>
+                                <i class="fa-solid fa-circle-chevron-right"></i>
+                            </div>
+                            <div class="left__top-card-box">
+                                <img src="/images/Coke icon.svg" alt="">
+                                <p>Drink</p>
+                                <i class="fa-solid fa-circle-chevron-right"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="category__left-bottom">
+                        <div class="category__left-bottom-card">
+                            <img src="/images/Sweets.svg" alt="">
+                            <div class="text">
+                                <p>Sweets</p>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            <div class="price">
+                                <span>$7.29</span>
+                                <i class="fa-solid fa-plus"></i>
+                            </div>
+                            </div> 
+                        </div>
+                        <div class="category__left-bottom-card">
+                            <img src="/images/Vegetable Pizza.svg" alt="">
+                            <div class="text">
+                                <p>Vegetable Pizza</p>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            <div class="price">
+                                <span>$5.49</span>
+                                <i class="fa-solid fa-plus"></i>
+                            </div>
+                            </div> 
+                        </div>
+                        <div class="category__left-bottom-card-active">
+                            <img src="/images/Spaghetti.svg" alt="">
+                            <div class="text-active">
+                                <p>Vegetable Pizza</p>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            <div class="price">
+                                <span>$7.49</span>
+                                <i class="fa-solid fa-plus"></i>
+                            </div>
+                            </div> 
+                        </div>
+                        <div class="category__left-bottom-card">
+                            <img src="/images/Vegetable Pizza.svg" alt="">
+                            <div class="text">
+                                <p>Spaghetti</p>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            <div class="price">
+                                <span>$6.49</span>
+                                <i class="fa-solid fa-plus"></i>
+                            </div>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+                <div class="category__right">
+                    <div class="category__right-card">
+                        <div class="heading">
+                            <h3>My Cart</h3>
+                            <p>View All <i class="fa-solid fa-circle-chevron-right"></i></p>
+                        </div>  
+                        <div class="category__right-card-box">
+                            <div class="box__img">
+                                <img src="/images/Cart image 1 (1).svg" alt="">
+                            </div>
+                            <div class="box__text">
+                                <div class="box__text-thing">
+                                    <p style="padding-right: 84px;">Mushroom Pizza</p>
+                                    <i class="fa-solid fa-trash"></i>
+                                </div>
+                                <div class="box__text-thing-bottom">
+                                    <i class="fa-solid fa-xmark">1</i>
+                                    <span>$7.29</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="category__right-card-box">
+                            <div class="box__img">
+                                <img src="/images/Cart iamge 2 (1).svg" alt="">
+                            </div>
+                            <div class="box__text">
+                                <div class="box__text-thing">
+                                    <p style="padding-right: 113px;">Italian Pizza</p>
+                                    <i class="fa-solid fa-trash"></i>
+                                </div>
+                                <div class="box__text-thing-bottom">
+                                    <i class="fa-solid fa-xmark">1</i>
+                                    <span>$7.29</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="category__right-card-box">
+                            <div class="box__img">
+                                <img src="/images/Cart image 3 (1).svg" alt="">
+                            </div>
+                            <div class="box__text">
+                                <div class="box__text-thing">
+                                    <p style="padding-right: 100px;">Sausage Pizza</p>
+                                    <i class="fa-solid fa-trash"></i>
+                                </div>
+                                <div class="box__text-thing-bottom">
+                                    <i class="fa-solid fa-xmark">1</i>
+                                    <span>$7.29</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="category__right-card-box">
+                            <div class="box__img">
+                                <img src="/images/Cart image 4 (1).svg" alt="">
+                            </div>
+                            <div class="box__text">
+                                <div class="box__text-thing">
+                                    <p style="padding-right: 104px;">Cheese Pizza</p>
+                                    <i class="fa-solid fa-trash"></i>
+                                </div>
+                                <div class="box__text-thing-bottom">
+                                    <i class="fa-solid fa-xmark">1</i>
+                                    <span>$7.29</span>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="category__btn">
+                            Checkout
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Category section finished -->
+        <!-- Trending section started-->
+         <section class="trending">
+            <div class="container trending__wrapper">
+                <div class="trending__left">
+                    <div class="trending__left-text">
+                        <h3>Trending Orders</h3>
+                        <p>View All <i class="fa-solid fa-circle-chevron-right"></i></p>
+                    </div>
+                    <div class="trending__left-card">
+                        <div class="trending__left-card-box">
+                            <img src="/images/Trending image 1.svg" alt="">
+                            <h4> Top of the week</h4>
+                            <h3>Italian Salad</h3>
+                            <p>100 Calories</p>
+                            <span class="line">_____</span>
+                            <p class="linear">4 persons</p>
+                            <span class="linear-price">$7.49</span>
+                            <i class="fa-solid fa-plus"></i>
+                        </div>
+                        <div class="trending__left-card-box">
+                            <img src="/images/Trending image 2.svg" alt="">
+                            <h4> Top of the day</h4>
+                            <h3>Italian Salad</h3>
+                            <p>50 Calories</p>
+                            <span class="line">_____</span>
+                            <p class="linear">4 persons</p>
+                            <span class="linear-price">$7.49</span>
+                            <i class="fa-solid fa-plus"></i>
+                        </div>
+                        <div class="trending__left-card-box">
+                            <img src="/images/Trending image 3.svg" alt="">
+                            <h4> Top of the month</h4>
+                            <h3>Italian Salad</h3>
+                            <p>90 Calories</p>
+                            <span class="line">_____</span>
+                            <p class="linear">3 persons</p>
+                            <span class="linear-price">$7.49</span>
+                            <i class="fa-solid fa-plus"></i>
+                        </div>
+                        <div class="trending__left-card-box">
+                            <img src="/images/Trending image 3.svg" alt="">
+                            <h4> Top of the week</h4>
+                            <h3>Italian Salad</h3>
+                            <p>50 Calories</p>
+                            <span class="line">_____</span>
+                            <p class="linear">5 persons</p>
+                            <span class="linear-price">$7.49</span>
+                            <i class="fa-solid fa-plus"></i>
+                        </div>
+                        <div class="active-bar">
+                            <img src="/images/Trending image 1.svg" alt="">
+                            <h4> Top of the month</h4>
+                            <h3>Italian Salad</h3>
+                            <p>70 Calories</p>
+                            <span class="line active-line">_____</span>
+                            <p class="linear">6 persons</p>
+                            <span class="linear-price active-price">$7.49</span>
+                            <i class="fa-solid fa-plus"></i>
+                        </div>
+                        <div class="trending__left-card-box">
+                            <img src="/images/Trending image 2.svg" alt="">
+                            <h4> Top of the day</h4>
+                            <h3>Italian Salad</h3>
+                            <p>80 Calories</p>
+                            <span class="line">_____</span>
+                            <p class="linear">4 persons</p>
+                            <span class="linear-price">$7.49</span>
+                            <i class="fa-solid fa-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="categories__right">
+                    <div class="categories__right-text">
+                        <h3>Categories</h3>
+                        <p>View All <i class="fa-solid fa-circle-chevron-right"></i></p>
+                    </div>
+                    <ul class="all__btn">
+                        <li><button class="active__btn">
+                            Burgers
+                        </button></li>
+                        <li><button class="categories__btn">
+                            Burgers
+                        </button></li>
+                        <li><button class="categories__btn">
+                            Pizza
+                        </button></li>
+                        <li><button class="categories__btn">
+                            Dessert
+                        </button></li>
+                        <li><button class="categories__btn">
+                            Dessert
+                        </button></li>
+                        <li><button class="categories__btn">
+                            Biscuits
+                        </button></li>
+                        <li><button class="categories__btn">
+                            Grilled cheese
+                        </button></li>
+                        <li><button class="categories__btn">
+                            Tomato soup
+                        </button></li>
+                        <li><button class="categories__btn">
+                            Chicken fingers
+                        </button></li>
+                        <li><button class="categories__btn">
+                            Chicken 
+                        </button></li>
+                        <li><button class="categories__btn">
+                            nuggets
+                        </button></li>
+                        <li><button class="categories__btn">
+                            Flatbread pizza
+                        </button></li>
+                        <li><button class="categories__btn">
+                            Flatbread pizza
+                        </button></li>
+                        <li><button class="categories__btn">
+                            Mac & cheese
+                        </button></li>
+                        <li><button class="categories__btn">
+                            Mini burgers
+                        </button></li>
+                        <li><button class="categories__btn">
+                            Mini burgers
+                        </button></li>
+                        <li><button class="categories__btn">
+                            Mini pizzas
+                        </button></li>
+                        <li><button class="categories__btn">
+                            Grilled Cheese
+                        </button></li>
+                        <li><button class="categories__btn">
+                            Grilled 
+                        </button></li>
+                        <li><button class="categories__btn">
+                            Veggie Grill's
+                        </button></li>
+                        <li><button class="categories__btn">
+                            Sandwich
+                        </button></li>
+                        <li><button class="categories__btn">
+                            Soup
+                        </button></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="burger">
+                <img src="/images/Burger image.svg" alt="">
+            </div>
+         </section>
+         <!-- Trending section finished -->
+    </main>
+    <!-- main finished -->
+     <!-- Footer section started -->
+      <footer>
+        <div class="container footer__wrapper">
+            <ul class="list">
+                <li><a class="ftr" href="#">Privacy Policy</a></li>
+                <li><a class="ftr" href="#">Terms of Use</a></li>
+            </ul>
+            <p>&copy 2021 Aprycot, Made with .. by <span>IQONIC Design.</span></p>
+        </div>
+      </footer>
+    
+</body>
+</html>
